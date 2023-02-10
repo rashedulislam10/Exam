@@ -1,0 +1,83 @@
+/* all common css state  */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.clr{
+    clear: both;
+}
+ul.ol{
+    list-style: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* all common css end */
+/* meno part state */
+.navbar {
+	top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    transition: .4s;
+} 
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #ffe169;
+}
+.reg_btn{
+    padding: 15px 25px;
+    background: #ffab16;
+    color: #0f2f44;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+/* meno part end */
+#banar_part{
+    padding-top: 280px;
+        padding-bottom: 180px;
+    background: url(../imges/banar2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banar_text_part p{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.banar_text_part h1{
+    font-size: 80px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 0 40px;
+}
+
+
+
+/* sarves part state */
+/* sarves part end */
+/* sarves part state */
+/* sarves part end */
+/* sarves part state */
+/* sarves part end */
+/* sarves part state */
+/* sarves part end */
+/* sarves part state */
+/* sarves part end */
